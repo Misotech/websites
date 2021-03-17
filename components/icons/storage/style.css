@@ -1,0 +1,78 @@
+.roundContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /* transform: scale(0); */
+    /* transform-origin: 50%; */
+    /* transition: transform 1.2s ease; */
+    /* will-change: transform; */
+  }
+}
+
+.centerOuter {
+  /* will-change: transform; */
+  /* transform-origin: 50% 48%; */
+  opacity: 1;
+  /* transition: opacity 4s ease; */
+  &.active {
+    opacity: 1;
+  }
+}
+
+.centrContainer {
+  opacity: 1;
+  /* transition: opacity 1s ease; */
+  /* transition-delay: 1s;
+  will-change: opacity;
+  &.active {
+    opacity: 1; */
+  /* } */
+}
+
+.dotsContainer {
+  /* will-change: transform;
+  transform-origin: center; */
+  opacity: 1;
+  /* transition: opacity 4s ease;
+  &.active {
+    opacity: 1;
+  } */
+}
+
+/* @keyframes OuterAnimation {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+
+/* @keyframes DotsAnimation {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+} */

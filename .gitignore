@@ -1,0 +1,25 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+/.vscode
+/.tmp
+# dependencies
+/node_modules
+# testing
+/coverage
+# /pages/docs
+# /static/images/docs
+# /constants/docs.js
+# production
+/build
+/dist
+/.next
+/out
+/public
+/static/build
+# misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# *.css.json
+constants/docs.js
